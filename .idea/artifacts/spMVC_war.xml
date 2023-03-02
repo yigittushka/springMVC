@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="spMVC:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>spMVC</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="spMVC.war">
+      <element id="artifact" artifact-name="spMVC:war exploded" />
+    </root>
+  </artifact>
+</component>
